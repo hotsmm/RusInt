@@ -1,0 +1,37 @@
+@media (max-width: 1024px) and (min-width:768px){
+    /*.logo {
+        max-width: 768px;
+    }*/
+    
+    .interior {
+        max-width: 770px;
+    }
+    
+    .interior-area {
+        width: 380px;
+        height: 250px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .interior-area_li {
+        width: 380px;
+        height: 250px;
+    }
+
+    .interior-area_2 {
+        width: 380px;
+        height: 250px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .interior-area_li_2 {
+        width: 380px;
+        height: 250px;
+    }
+
+    .body {
+        margin-top: 30px;
+    }
+}
