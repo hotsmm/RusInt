@@ -1,4 +1,11 @@
 @media (max-width: 1024px) and (min-width:700px){
+     .slogan1 {
+        display: none;
+    }
+
+    .slogan2 {
+        display: block;
+    }
     
     .interior {
         max-width: 770px;
