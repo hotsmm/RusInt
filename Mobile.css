@@ -48,6 +48,10 @@
     .body {
         margin-top: 20px;
     }
+   
+    .lumin a {
+        font-size: 22px;
+    }
 
     .sign1 {
         display: none;
