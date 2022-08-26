@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+@import url(https://allfont.ru/allfont.css?fonts=p22-cezanne-regular);
 
 body{
     margin: 0;
@@ -14,12 +24,79 @@ body{
     justify-content: center; 
     max-width: 1300px;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 .logo1 {
     width: 250px;  
     margin-top: 40px;
-    margin-bottom: 15px;
+}
+
+.slogan1 {
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: bolder;
+    background: 50% 100% / 50% 50% no-repeat
+    radial-gradient(ellipse at bottom, #000000, #000000, #000000);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+font-size: 24px;
+font-weight: bolder;
+text-decoration: none;
+text-align: center;   
+margin-bottom: 25px;
+animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+80%{
+letter-spacing: 8px;
+}
+100% {
+background-size: 300% 300%;
+}
+}
+
+@keyframes glow {
+40% {
+text-shadow: 0 0 1.5px #000000;
+}
+}
+
+.slogan2 {
+    display: none;
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: bolder;
+    background: 50% 100% / 50% 50% no-repeat
+    radial-gradient(ellipse at bottom, #000000, #000000, #000000);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+font-size: 24px;
+font-weight: bolder;
+text-decoration: none;
+text-align: center;   
+margin-bottom: 25px;
+animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+80%{
+letter-spacing: 8px;
+}
+100% {
+background-size: 300% 300%;
+}
+}
+
+@keyframes glow {
+40% {
+text-shadow: 0 0 1.5px #000000;
+}
 }
 
 .interior {
@@ -188,6 +265,103 @@ body{
       text-shadow: 0 0 1.5px #000000;
     }
 }
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.parallax {
+    position: relative;
+    height: 100%;
+}
+.parallax__picture {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.parallax__picture_1 {
+    background: url('./02-24-03.png') 267px 14px / 30% 47% no-repeat;
+}
+
+.parallax__picture_2 {
+    background: url('./01-24-03.png') 683px 14px / 30% 47% no-repeat;
+}
+
+.parallax__picture_3 {
+    background: url('./04-24-03.png') 267px 316px / 30% 47% no-repeat;
+}
+
+.parallax__picture_4 {
+    background: url('./03-24-03.png') 683px 316px / 30% 47% no-repeat;
+}
+
+.content {
+    position: relative;
+}
+
+.content__body {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 250, 250, 0.9);
+    padding: 15px;
+}
+.content__title {
+    text-transform: uppercase;
+}
+.content__article {
+    
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.content__article p {
+    margin-bottom: 15px;
+}
+
+.contacts {
+    
+}
+
+.mail {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.mail p {
+    margin-top: 0;
+}
+
+.logo2 {
+    width: 190px;
+    height: 160px;
+}
+
+.signature {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sign1 {
+    width: 700px;
+}
+
+.sign2 {
+    display: none;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
   
 
 
