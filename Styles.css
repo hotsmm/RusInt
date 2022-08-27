@@ -68,35 +68,35 @@ text-shadow: 0 0 1.5px #000000;
 .slogan2 {
     display: none;
     font-size: 22px;
-    line-height: 1.7em;
+    line-height: 1.5em;
     margin-top: 0;
     font-weight: bolder;
     background: 50% 100% / 50% 50% no-repeat
     radial-gradient(ellipse at bottom, #000000, #000000, #000000);
--webkit-background-clip: text;
-background-clip: text;
-color: transparent;
-font-size: 24px;
-font-weight: bolder;
-text-decoration: none;
-text-align: center;   
-margin-bottom: 25px;
-animation: reveal 3000ms ease-in-out forwards 200ms,
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;   
+    margin-bottom: 25px;
+    animation: reveal 3000ms ease-in-out forwards 200ms,
     glow 2500ms linear infinite 2000ms;
 }
 
 @keyframes reveal {
 80%{
-letter-spacing: 8px;
+    letter-spacing: 8px;
 }
 100% {
-background-size: 300% 300%;
+    background-size: 300% 300%;
 }
 }
 
 @keyframes glow {
 40% {
-text-shadow: 0 0 1.5px #000000;
+    text-shadow: 0 0 1.5px #000000;
 }
 }
 
@@ -327,7 +327,8 @@ text-shadow: 0 0 1.5px #000000;
 }
 
 .contacts {
-    
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .mail {
@@ -336,6 +337,7 @@ text-shadow: 0 0 1.5px #000000;
     font-weight: bolder;
     font-size: 20px;
     line-height: 33px;
+    
 }
 
 .mail p {
@@ -363,10 +365,56 @@ text-shadow: 0 0 1.5px #000000;
     margin: 0 auto;
 }
 
+.menu {
+    width: 50px;
+    max-width: 80%;
+}
 
-  
+.box {
+    font-size:30px;
+    cursor:pointer;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
 
 
+.sidenav a {
+    padding: 7px 7px 7px 7px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
 
+.sidenav a:hover {
+    color: #f1f1f1;
+    font-size: 27px;
+}
 
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
