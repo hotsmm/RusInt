@@ -12,6 +12,28 @@
     <body>  
         <div class="contacts">
             <div class="mail">
+                <div class="menu">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a href="#">о нас</a>
+                        <a href="#">столярное производство</a>
+                        <a href="#">производство мягкой мебели</a>
+                        <a href="#">производство по металлу</a>
+                        <a href="#">зеркала и стекло</a>
+                        <a href="index.html0">главная</a>
+                    </div>
+                    <span class="box" onclick="openNav()">☰</span>
+    
+                    <script>
+                        function openNav() {
+                        document.getElementById("mySidenav").style.width = "230px";
+                    }
+    
+                        function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                    </script>
+                </div>
                 <img src="./Logo2.png"  class="logo2" alt="Logo">     
                 <p><!--Комплексное оснащение интерьеров<br>-->
                 sergeenkova_spb@mail.ru <br>
@@ -22,6 +44,7 @@
                 <img src="./sign1.png"  class="sign1" alt="Logo"> 
                 <img src="./sign2.png"  class="sign2" alt="Logo"> 
             </div>
+            
         </div>
     </body>
     </html>
